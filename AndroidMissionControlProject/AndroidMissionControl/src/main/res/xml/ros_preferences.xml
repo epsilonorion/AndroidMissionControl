@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="ROS Core Setup" >
+        <EditTextPreference
+                android:defaultValue="192.168.1.1"
+                android:dialogTitle="Enter IP Address (ex: XXX.XXX.XXX.XXX)"
+                android:key="ros_IP"
+                android:summary="Click to enter IP Address"
+                android:title="ROS Core Hostname IP Address" >
+        </EditTextPreference>
+        <EditTextPreference
+                android:defaultValue="11311"
+                android:dialogTitle="Enter Port Number"
+                android:key="ros_port"
+                android:summary="Click to enter ROS Port Number"
+                android:title="ROS Core Hostname Port Number" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Messages" >
+        <EditTextPreference
+                android:defaultValue="5"
+                android:dialogTitle="Enter the desired number of tries (number)"
+                android:key="client_timeout"
+                android:summary="Click to enter the desired timeout for Command and Waypoint Clients"
+                android:title="Timeout for Command and Waypoint Clients" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

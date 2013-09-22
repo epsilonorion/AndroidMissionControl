@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblWaypointName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waypoint Name: "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtWaypointName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:ems="8" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblLatitude"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Latitude (decimal degrees): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtLatitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblLongitude"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Longitude (decimal degrees): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtLongitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblSpeedTo"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="SpeedTo (% of 100): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtSpeedTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblHoldTime"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Hold Time (1/100th sec): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtHoldTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblAltitude"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Altitude (mm): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtAltitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblHeadingFrom"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Yaw From (degrees): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtDesiredHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblPanAngle"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Pan Angle (degrees): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtPanAngle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/lblTiltAngle"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Tilt Angle (degrees): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtTiltAngle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblPosAccuracy"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Position Accuracy (mm): "
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtPosAccuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:ems="8"
+                android:textSize="16dp" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
