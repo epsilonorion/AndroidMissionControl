@@ -10,10 +10,6 @@
     <string name="swap_map_video">Swap Map/Video</string>
     <string name="vehicle_connect">Connect</string>
     <string name="title_activity_main">Android Mission Control</string>
-    <item type="string" name="googlemaps_windows_debug_key">AIzaSyBPfq1Du97Il-KKXVibFjWjVVIvyHvwZfs</item>
-    <item type="string" name="googlemaps_windows_release_key">ENTER HERE</item>
-    <item type="string" name="googlemaps_linux_debug_key">ENTER HERE</item>
-    <item type="string" name="googlemaps_linux_release_key">ENTER HERE</item>
     <string name="menu_insert">Add Note</string>
     <string name="menu_delete">Delete Note</string>
 
