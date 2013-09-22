@@ -9,7 +9,7 @@
  *          XML : res->layout->main
  * Dependencies : ViewPagerIndicator<L>, ROSJava, Android-Core
  **************************************************************************************************/
-package com.mil.congregatorscontrol;
+package com.mil.androidmissioncontrol;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -35,15 +35,15 @@ import android.widget.Toast;
 
 import com.google.android.gms.maps.model.Marker;
 
-import com.mil.congregatorscontrol.fragments.CommandFragment;
-import com.mil.congregatorscontrol.fragments.StatusFragment;
-import com.mil.congregatorscontrol.fragments.ViewFragmentAdapter;
-import com.mil.congregatorscontrol.fragments.CustomMapFragment;
-import com.mil.congregatorscontrol.preferences.PreferencesMenu;
-import com.mil.congregatorscontrol.fragments.WaypointListFragment;
-import com.mil.congregatorscontrol.util.StatusInfo;
-import com.mil.congregatorscontrol.util.WaypointInfo;
-import com.mil.congregatorscontrol.util.WaypointList;
+import com.mil.androidmissioncontrol.fragments.CommandFragment;
+import com.mil.androidmissioncontrol.fragments.StatusFragment;
+import com.mil.androidmissioncontrol.fragments.ViewFragmentAdapter;
+import com.mil.androidmissioncontrol.fragments.CustomMapFragment;
+import com.mil.androidmissioncontrol.preferences.PreferencesMenu;
+import com.mil.androidmissioncontrol.fragments.WaypointListFragment;
+import com.mil.androidmissioncontrol.util.StatusInfo;
+import com.mil.androidmissioncontrol.util.WaypointInfo;
+import com.mil.androidmissioncontrol.util.WaypointList;
 import com.viewpagerindicator.PageIndicator;
 import com.viewpagerindicator.TitlePageIndicator;
 

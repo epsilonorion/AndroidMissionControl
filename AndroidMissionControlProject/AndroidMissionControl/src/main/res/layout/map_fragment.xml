@@ -29,7 +29,7 @@
                 android:gravity="bottom|center"
                 android:orientation="vertical" >
 
-            <com.mil.congregatorscontrol.util.SlidingDrawerWrapper
+            <com.mil.androidmissioncontrol.util.SlidingDrawerWrapper
                     android:id="@+id/sg_below"
                     android:layout_width="wrap_content"
                     android:layout_height="120dp"
@@ -127,7 +127,7 @@
                             android:contentDescription="Right Grip image for slider drawer buttons"
                             android:src="@drawable/quickaction_slider_grip_right" />
                 </LinearLayout>
-            </com.mil.congregatorscontrol.util.SlidingDrawerWrapper>
+            </com.mil.androidmissioncontrol.util.SlidingDrawerWrapper>
         </LinearLayout>
 
 </RelativeLayout>

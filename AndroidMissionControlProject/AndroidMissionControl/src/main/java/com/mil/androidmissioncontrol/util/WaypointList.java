@@ -8,7 +8,7 @@
  *    		XML :
  * Dependencies : WaypointInfo
  **************************************************************************************************/
-package com.mil.congregatorscontrol.util;
+package com.mil.androidmissioncontrol.util;
 
 import com.google.android.gms.maps.model.Marker;
 

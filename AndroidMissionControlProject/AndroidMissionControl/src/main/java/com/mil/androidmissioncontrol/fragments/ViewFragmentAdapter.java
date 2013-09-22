@@ -8,7 +8,7 @@
  *    		XML :
  * Dependencies :
  ****************************************************************************/
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

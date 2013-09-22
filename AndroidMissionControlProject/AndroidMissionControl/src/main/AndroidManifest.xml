@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mil.congregatorscontrol"
+    package="com.mil.androidmissioncontrol"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <permission
-            android:name="com.mil.congregatorscontrol.permission.MAPS_RECEIVE"
+            android:name="com.mil.androidmissioncontrol.permission.MAPS_RECEIVE"
             android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -27,13 +27,13 @@
             android:required="true"/>
 
     <application
-        android:name=".MainApplication"
+        android:name="com.mil.androidmissioncontrol.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.mil.androidmissioncontrol.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="adjustPan" >
@@ -45,7 +45,7 @@
         </activity>
 
         <activity
-                android:name=".preferences.PreferencesMenu"
+                android:name="com.mil.androidmissioncontrol.preferences.PreferencesMenu"
                 android:label="@string/app_name"
                 android:screenOrientation="sensorLandscape" >
         </activity>

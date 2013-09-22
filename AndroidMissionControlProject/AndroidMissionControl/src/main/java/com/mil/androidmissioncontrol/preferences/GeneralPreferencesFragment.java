@@ -8,10 +8,9 @@
  *          XML : res->menu->xml->general_preferences
  * Dependencies : PreferencesMenu
  ****************************************************************************/
-package com.mil.congregatorscontrol.preferences;
+package com.mil.androidmissioncontrol.preferences;
 
-import com.mil.congregatorscontrol.R;
-import com.mil.congregatorscontrol.R.menu;
+import com.mil.androidmissioncontrol.R;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;

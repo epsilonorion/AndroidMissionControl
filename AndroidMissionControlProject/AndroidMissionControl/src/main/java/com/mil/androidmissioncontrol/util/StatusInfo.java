@@ -9,7 +9,7 @@
  *    		XML :
  * Dependencies :
  **************************************************************************************************/
-package com.mil.congregatorscontrol.util;
+package com.mil.androidmissioncontrol.util;
 
 public class StatusInfo {
     private String vehicleName;

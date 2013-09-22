@@ -8,7 +8,7 @@
  * Dependencies :
  *          XML : res->layout->media_fragment
  ****************************************************************************/
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
 /**
  * Created by Josh on 8/25/13.

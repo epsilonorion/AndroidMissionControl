@@ -8,7 +8,7 @@
  *          XML : res->menu->xml->vehicle_preferences
  * Dependencies : PreferencesMenu
  ****************************************************************************/
-package com.mil.congregatorscontrol.preferences;
+package com.mil.androidmissioncontrol.preferences;
 
 
 import android.content.SharedPreferences;
@@ -17,7 +17,7 @@ import android.preference.EditTextPreference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
-import com.mil.congregatorscontrol.R;
+import com.mil.androidmissioncontrol.R;
 
 public class VehiclePreferencesFragment extends PreferenceFragment implements
         SharedPreferences.OnSharedPreferenceChangeListener {

@@ -10,7 +10,7 @@
  * Dependencies : SlidingDrawerWrapper, WaypointsOverlay
  **************************************************************************************************/
 
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -42,11 +42,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.mil.congregatorscontrol.MainApplication;
-import com.mil.congregatorscontrol.R;
-import com.mil.congregatorscontrol.util.SlidingDrawerWrapper;
-import com.mil.congregatorscontrol.util.WaypointInfo;
-import com.mil.congregatorscontrol.util.WaypointList;
+import com.mil.androidmissioncontrol.MainApplication;
+import com.mil.androidmissioncontrol.R;
+import com.mil.androidmissioncontrol.util.SlidingDrawerWrapper;
+import com.mil.androidmissioncontrol.util.WaypointInfo;
+import com.mil.androidmissioncontrol.util.WaypointList;
 
 import android.widget.SlidingDrawer.OnDrawerCloseListener;
 import android.widget.SlidingDrawer.OnDrawerOpenListener;

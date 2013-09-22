@@ -8,7 +8,7 @@
  *          XML : res->menu->xml->ros_preferences
  * Dependencies : PreferencesMenu
  ****************************************************************************/
-package com.mil.congregatorscontrol.preferences;
+package com.mil.androidmissioncontrol.preferences;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.mil.congregatorscontrol.R;
+import com.mil.androidmissioncontrol.R;
 
 public class ROSPreferencesFragment extends PreferenceFragment implements
         SharedPreferences.OnSharedPreferenceChangeListener {

@@ -8,15 +8,15 @@
  * 			XML : res->layout->command_fragment
  * Dependencies : ViewFragmentAdapter, ROSJava, Android-Core
  ****************************************************************************/
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
 //import org.ros.address.InetAddressFactory;
 //import org.ros.node.DefaultNodeMainExecutor;
 //import org.ros.node.NodeConfiguration;
 //import org.ros.node.NodeMainExecutor;
 
-import com.mil.congregatorscontrol.MainApplication;
-import com.mil.congregatorscontrol.R;
+import com.mil.androidmissioncontrol.MainApplication;
+import com.mil.androidmissioncontrol.R;
 //import com.mil.congregatorscontrol.StatusInfo;
 //import com.mil.congregatorscontrol.VehicleStatus;
 //import com.mil.congregatorscontrol.WaypointList;

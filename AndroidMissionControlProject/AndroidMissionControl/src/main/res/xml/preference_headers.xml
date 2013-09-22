@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
-    <header android:fragment="com.mil.congregatorscontrol.preferences.ROSPreferencesFragment"
+    <header android:fragment="com.mil.androidmissioncontrol.preferences.ROSPreferencesFragment"
             android:title="ROS"
             android:summary="Preferences for ROS components of the application">
         <extra android:name="resource" android:value="ros_preferences" />
     </header>
-    <header android:fragment="com.mil.congregatorscontrol.preferences.VehiclePreferencesFragment"
+    <header android:fragment="com.mil.androidmissioncontrol.preferences.VehiclePreferencesFragment"
             android:title="Vehicle"
             android:summary="Preferences for vehicles used">
         <extra android:name="resource" android:value="vehicle_preferences" />
     </header>
-    <header android:fragment="com.mil.congregatorscontrol.preferences.GeneralPreferencesFragment"
+    <header android:fragment="com.mil.androidmissioncontrol.preferences.GeneralPreferencesFragment"
             android:title="General"
             android:summary="Preferences for the general application">
         <extra android:name="resource" android:value="general_preferences" />

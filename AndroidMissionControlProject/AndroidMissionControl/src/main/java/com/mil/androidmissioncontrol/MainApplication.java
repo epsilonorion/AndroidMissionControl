@@ -1,12 +1,11 @@
-package com.mil.congregatorscontrol;
+package com.mil.androidmissioncontrol;
 
 import android.app.Application;
 
-import com.mil.congregatorscontrol.util.StatusInfo;
-import com.mil.congregatorscontrol.util.WaypointList;
+import com.mil.androidmissioncontrol.util.StatusInfo;
+import com.mil.androidmissioncontrol.util.WaypointList;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class MainApplication extends Application{
 

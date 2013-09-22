@@ -8,21 +8,17 @@
  *          XML : res->layout->status_fragment
  * Dependencies : ViewFragmentAdapter, ROSJava, Android-Core
  ****************************************************************************/
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
-import com.mil.congregatorscontrol.MainApplication;
-import com.mil.congregatorscontrol.R;
-import com.mil.congregatorscontrol.util.StatusInfo;
+import com.mil.androidmissioncontrol.MainApplication;
+import com.mil.androidmissioncontrol.R;
+import com.mil.androidmissioncontrol.util.StatusInfo;
 //import com.mil.congregatorscontrol.util.VehicleStatus;
-import com.mil.congregatorscontrol.R.id;
-import com.mil.congregatorscontrol.R.layout;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

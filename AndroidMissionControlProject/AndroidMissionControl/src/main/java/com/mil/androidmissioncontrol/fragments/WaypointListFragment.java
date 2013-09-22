@@ -9,14 +9,14 @@
  * Dependencies : ViewFragmentAdapter
  ****************************************************************************/
 
-package com.mil.congregatorscontrol.fragments;
+package com.mil.androidmissioncontrol.fragments;
 
 import java.util.ArrayList;
 
-import com.mil.congregatorscontrol.MainApplication;
-import com.mil.congregatorscontrol.R;
-import com.mil.congregatorscontrol.util.WaypointInfo;
-import com.mil.congregatorscontrol.util.WaypointList;
+import com.mil.androidmissioncontrol.MainApplication;
+import com.mil.androidmissioncontrol.R;
+import com.mil.androidmissioncontrol.util.WaypointInfo;
+import com.mil.androidmissioncontrol.util.WaypointList;
 
 import android.app.ListFragment;
 import android.os.Bundle;

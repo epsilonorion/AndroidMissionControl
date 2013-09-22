@@ -8,7 +8,7 @@
  *    		XML :
  * Dependencies :
  ****************************************************************************/
-package com.mil.congregatorscontrol.util;
+package com.mil.androidmissioncontrol.util;
 
 import android.os.Parcel;
 import android.os.Parcelable;

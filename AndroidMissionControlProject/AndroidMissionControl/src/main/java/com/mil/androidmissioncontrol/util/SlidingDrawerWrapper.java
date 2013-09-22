@@ -7,7 +7,7 @@
  * 			XML :
  * Dependencies :
  ****************************************************************************/
-package com.mil.congregatorscontrol.util;
+package com.mil.androidmissioncontrol.util;
 
 import android.content.Context;
 import android.util.AttributeSet;

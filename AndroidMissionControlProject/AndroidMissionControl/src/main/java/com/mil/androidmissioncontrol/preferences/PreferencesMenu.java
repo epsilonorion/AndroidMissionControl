@@ -9,7 +9,7 @@
  *          XML : res->xml->preference_headers
  * Dependencies :
  ****************************************************************************/
-package com.mil.congregatorscontrol.preferences;
+package com.mil.androidmissioncontrol.preferences;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
-import com.mil.congregatorscontrol.R;
+import com.mil.androidmissioncontrol.R;
 
 import java.util.List;
 
